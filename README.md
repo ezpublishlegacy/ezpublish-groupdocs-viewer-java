@@ -1,25 +1,38 @@
-# Groupdocs Viewer for Java
-============================
+##GroupDocs.Viewer for Java – ezPublish Add-on
 
-GroupDocs Viewer for Java plugin for ezPublish
+GroupDocs.Viewer for Java is multi-format, browser-agnostic [Java document viewer library](http://groupdocs.com/java/document-viewer-library) designed as a middleware for easy integration into any web-based application or website. With this add-on, ezPublish developers can easily integrate the viewer into their websites.
 
-With GroupDocs Viewer for Java plugin for ezPublish you can easily view on [annotate on PDF's](http://groupdocs.com/apps/viewer), Word documents, Excel documents, Powerpoint documents and more with the GroupDocs Viewer tool, directly from within your ezPublish website.
+GroupDocs.Viewer for Java provides a web-based GUI that can be easily customized with your own CSS and embedded to a web-page as a document viewer widget. End users can then view documents via the widget without having to leave your website.
 
-###Plugin Manual Installation Instructions:
-1. "groupdocsViewerJava" module contain "design, modules, setting", so unzip it into "extentions" directory, so parent directory is "groupdocsViewer"
-2. Open file: "site/settings/override/site.ini.append.php" and add "ActiveExtensions[]=groupdocsViewerJava" under "[ExtensionSettings]"
-3. Go to Admin > Setup > Extentions and checkbox where "groupdocsViewer" must be ticked
-4. Then go to - Setup > Extentions and press "Regenerate autoloaded arrays for extentions" in the bottom
-5. Grant permissions in admin go to - User Accounts > Roles and policies > Anonymous => Edit Role and if "groupdocsViewerJava" isn't available in the list press - New Policy > choose Module: groupdocsViewerJava > Grant access to all functions > Save
-6. Go to Setup and press "Clear all caches"
+####With GroupDocs.Viewer for Java, you get:
 
+- A truly universal document viewer that supports 50+ document formats, including PDF, Microsoft Word, Excel, PowerPoint, Outlook, Visio, CAD, multipage TIFF, etc.
+- Cross-platform compatibility. End users can view documents on your website from any web-enabled device using any standard web-browser.
+- Ease of deployment. There is no need to install anything on the client side. You only need to deploy GroupDocs.Viewer for Java on the server and integrate it into ezPublish using this add-on.
+- Ability to securely share documents in a read-only mode. GroupDocs.Viewer for Java allows you to disable the print, download and text selection options, so that viewers can’t copy the documents you share on your website.   
 
-###[Sign, Manage, Annotate, Assemble, Compare and Convert Documents with GroupDocs](http://groupdocs.com)
-<<<<<<< HEAD
-* [View PDF, Word, Excel, Powerpoint and Images with GroupDocs.Viewer for Java Library](http://groupdocs.com/java/document-viewer-library)
-=======
-* [Annotate PDF, Word, Excel, Powerpoint and Images with GroupDocs Viewer](http://groupdocs.com/apps/viewer)
->>>>>>> 20cb7bc31242c2748159c0e5ee9073f7dd2a783c
-* [See GroupDocs Viewer for Java plugin for ez Publish CMS](https://github.com/groupdocs/ezpublish-groupdocs-viewer-java)
+___
 
-###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/plugins).
+###Add-on Installation:
+
+Please note that this plugin integrates a downloadable Java version of GroupDocs.Viewer, which can be deployed on-premises. We also offer a downloadable [.NET version](https://github.com/groupdocs/ezpublish-groupdocs-viewer-dotnet) and a [cloud-based integration](https://github.com/groupdocs/ez-groupdocs-viewer).
+
+Also, please be aware that GroupDocs.Viewer for Java is a commercial library, but you can test it with a free evaluation. 
+
+1. Unzip the **groupdocsViewerNet** package to the **groupdocsViewer** folder within the **extensions** directory of your ezPublish site. 
+2. Open the **site/settings/override/site.ini.append.php** file and add **ActiveExtensions[]=groupdocsViewerNet** under **[ExtensionSettings]**.
+3. Go to: **Admin** > **Setup** > **Extensions** and check the **groupdocsViewer** checkbox.
+4. Go to: **Setup** > **Extensions** and press the **Regenerate auto loaded arrays for extensions** in the bottom of the page.
+5. Go to: **User Accounts** > **Roles and policies** > **Anonymous** then click **Edit Role**.
+6. If **groupdocsViewerNet** is not listed there, press **New Policy** > choose **Module: groupdocsViewerNet** > **Grant access to all functions** > **Save**.
+6. Go to **Setup** and press **Clear all caches**.
+
+___
+
+###Useful Links
+
+GroupDocs.Viewer for Java Library - Product Home:    
+[http://groupdocs.com/java/document-viewer-library](http://groupdocs.com/java/document-viewer-library)
+
+GroupDocs.Viewer for Java on the ezPublish Marketplace:   
+[http://projects.ez.no/groupdocs_viewer_for_java](http://projects.ez.no/groupdocs_viewer_for_java)
